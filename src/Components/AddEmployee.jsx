@@ -29,7 +29,6 @@ const AddEmployee = () => {
 
   return (
     <div>
-        
         <Form onSubmit={handleSubmit} className='mt-5'>
             <Form.Group className="d-inline-block mb-3 me-3" controlId="formBasicEmail">
                 <Form.Label>Id</Form.Label>
